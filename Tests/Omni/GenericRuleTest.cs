@@ -15,9 +15,8 @@ namespace Tests.Omni
         [TestMethod]
         public void EvaluateSucess()
         {
-            var client = new Client();
-            client.InvestorId = "123213";
-
+            var client = new Client() { InvestorId = "123213" } ;
+            
             var rule = new GenericRule();
 
             Assert.IsTrue(rule.Validate(client,null));
@@ -27,7 +26,6 @@ namespace Tests.Omni
         public void EvaluateFailure()
         {
             var client = new Client();
-            client.InvestorId = "";
 
             var exceptedMassage = "Gereric Rule Error";
 

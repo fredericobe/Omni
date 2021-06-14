@@ -11,7 +11,7 @@ namespace Omni.Factory
 {
     public class OmniFactory : IOmniFactory
     {
-        private List<IRuleManager> _managers;
+        private readonly List<IRuleManager> _managers;
 
         public OmniFactory()
         {

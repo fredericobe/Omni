@@ -48,9 +48,7 @@ namespace Tests.Omni
         {
 
             var manager = factory.GetRuleManager(productName);
-            var client = new Client();
-            client.Name = "Client";
-            client.InvestorId = "12312312";
+            var client = new Client() { Name = "Client", InvestorId = "12312312" };
             client.Profile = global::Omni.Base.ClientProfile.Conservative;
             Assert.IsTrue(manager.IsValid(client));
 
@@ -61,9 +59,7 @@ namespace Tests.Omni
         {
 
             var manager = factory.GetRuleManager(productName);
-            var client = new Client();
-            client.Name = "Client";
-
+            var client = new Client() { Name = "Client" };
 
             Assert.IsFalse(manager.IsValid(client));
         }

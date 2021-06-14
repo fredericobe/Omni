@@ -11,7 +11,7 @@ namespace Omni.Omni
     {
         public void AddRuleManager(IRuleManager manager)
         {
-
+            throw new NotImplementedException();
         }
     }
 }

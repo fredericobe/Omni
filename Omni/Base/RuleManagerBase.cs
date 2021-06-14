@@ -9,8 +9,8 @@ namespace Omni.Base
     public abstract class RuleManagerBase : IRuleManager
     {
 
-        private List<String> _messages = new List<string>();
-        private List<IRule> _rules = new List<IRule>();
+        private readonly List<String> _messages = new();
+        private readonly List<IRule> _rules = new();
 
 
         public abstract string ProductName { get; }
