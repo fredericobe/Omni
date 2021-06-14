@@ -1,5 +1,5 @@
-﻿using console.Omni;
-using console.Products.BankDeposit.Rules;
+﻿using Omni.Omni;
+using Omni.Products.BankDeposit.Rules;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;

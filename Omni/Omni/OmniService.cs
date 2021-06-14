@@ -1,11 +1,11 @@
-﻿using console.Base;
+﻿using Omni.Base;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace console.Omni
+namespace Omni.Omni
 {
     public class OmniService
     {

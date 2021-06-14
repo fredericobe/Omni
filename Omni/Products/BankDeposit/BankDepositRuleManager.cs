@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using console.Products.BankDeposit;
-using console.Base;
-using console.CommonRules;
+using Omni.Products.BankDeposit;
+using Omni.Base;
+using Omni.CommonRules;
 
-namespace console.Products.BankDeposit
+namespace Omni.Products.BankDeposit
 {
     public class BankDepositRuleManager : RuleManagerBase
     {

@@ -1,13 +1,13 @@
-﻿using console.Base;
-using console.Exceptions;
-using console.Products.Treasury;
+﻿using Omni.Base;
+using Omni.Exceptions;
+using Omni.Products.Treasury;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace console.Factory
+namespace Omni.Factory
 {
     public class OmniFactory : IOmniFactory
     {

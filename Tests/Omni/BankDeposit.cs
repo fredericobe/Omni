@@ -4,13 +4,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using console.Omni;
-using console.Factory;
-using console.Products.Treasury;
-using console.Exceptions;
-using console.Products.BankDeposit.Rules;
-using console.Products.BankDeposit;
-using console.CommonRules;
+using Omni.Omni;
+using Omni.Factory;
+using Omni.Products.Treasury;
+using Omni.Exceptions;
+using Omni.Products.BankDeposit.Rules;
+using Omni.Products.BankDeposit;
+using Omni.CommonRules;
 
 namespace Tests.Omni
 {
@@ -51,7 +51,7 @@ namespace Tests.Omni
             var client = new Client();
             client.Name = "Client";
             client.InvestorId = "12312312";
-            client.Profile = console.Base.ClientProfile.Conservative;
+            client.Profile = global::Omni.Base.ClientProfile.Conservative;
             Assert.IsTrue(manager.IsValid(client));
 
         }

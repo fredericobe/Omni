@@ -1,5 +1,5 @@
 
-namespace console.Base
+namespace Omni.Base
 {
     public interface IClient
     {

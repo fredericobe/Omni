@@ -1,6 +1,6 @@
-﻿using console.Exceptions;
-using console.Factory;
-using console.Products.Treasury;
+﻿using Omni.Exceptions;
+using Omni.Factory;
+using Omni.Products.Treasury;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;

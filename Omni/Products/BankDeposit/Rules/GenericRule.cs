@@ -1,6 +1,6 @@
-using console.Base;
+using Omni.Base;
 
-namespace console.Products.BankDeposit.Rules
+namespace Omni.Products.BankDeposit.Rules
 {
     public class GenericRule : IRule
     {

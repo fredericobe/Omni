@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace console.Exceptions
+namespace Omni.Exceptions
 {
     public class AmbiguosRuleManagerException:Exception
     {

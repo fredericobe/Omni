@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using console.Base;
-using console.CommonRules;
-using console.Products.Treasury;
-namespace console.Products.Treasury
+using Omni.Base;
+using Omni.CommonRules;
+using Omni.Products.Treasury;
+namespace Omni.Products.Treasury
 {
     public class TreasuryRuleManager : RuleManagerBase
     {

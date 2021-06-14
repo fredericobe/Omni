@@ -1,7 +1,7 @@
 
-using console.Base;
+using Omni.Base;
 
-namespace console.Base
+namespace Omni.Base
 {
     public interface IRule
     {

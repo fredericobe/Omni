@@ -1,6 +1,6 @@
-using console.Base;
+using Omni.Base;
 
-namespace console.Products.Treasury.Rules
+namespace Omni.Products.Treasury.Rules
 {
     public class InvestorRule : IRule
     {

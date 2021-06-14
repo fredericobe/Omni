@@ -1,7 +1,7 @@
 
 using System.Collections.Generic;
 
-namespace console.Base
+namespace Omni.Base
 {
     public interface IRuleManager
     {
