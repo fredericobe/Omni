@@ -1,6 +1,6 @@
 # Omni
 
-##Objetivo
+## Objetivo
 
 O objetivo desse repositório é explorar o conceito de OmniChannel, isolando ou minimizando impactos de alteração no Front ou no Backend (produto)
 
@@ -14,7 +14,7 @@ TO-DO
 * BFF - Backend for fronend - APIs que respondem a um canal, conhendo um canal e traduzindo a API de Omnichanel para o canal em questão
 * Web - Canal Web para Simular o consumo
 
-##Importante
+## Importante
 Para fins de simplicidade do exemplo, a solução está em apenas um projeto, porém, em um ambiente produtivo é aconselhavel o desacoplamento, inclusive com implantação em infraestrutura separada.
 
 *Esse não é um projeto produtivo, apenas um caso de estudo*
